@@ -2,6 +2,7 @@ import {
   Box3,
   BufferAttribute,
   BufferGeometry,
+  Color,
   Group,
   Mesh,
   MeshStandardMaterial,
@@ -13,7 +14,7 @@ import { loadGlb } from "./glb.js";
 import { createStage } from "./stage.js";
 import { createOrbit, bindCanvas } from "./orbit.js";
 
-const BONE = new Vector3(0.9, 0.84, 0.73);
+const BONE = new Color(0.9, 0.84, 0.73);
 const LIMITS = {
   elev: [-6, 28],
   protr: [-12, 18],
@@ -43,6 +44,18 @@ function fail() {
 function clamp(name, value) {
   const pair = LIMITS[name];
   return Math.min(pair[1], Math.max(pair[0], value));
+}
+
+// Scapulohumeral rhythm is a function of abduction, so raising the arm and
+// bringing it back adds and removes the same girdle motion. Past the
+// abduction stop the difference is zero, and the girdle stops with the arm.
+function rhythm(abd) {
+  const extra = Math.max(0, abd - 8);
+  return {
+    scapUp: extra * 0.45,
+    elev: extra * 0.28,
+    axial: extra * 0.18,
+  };
 }
 
 async function main() {
@@ -161,12 +174,13 @@ async function main() {
       pose.protr = clamp("protr", pose.protr + dx * 0.1);
     } else if (driver === "left-humerus") {
       const lift = -dy * 0.22;
+      const before = rhythm(pose.abd);
       pose.abd = clamp("abd", pose.abd + lift);
+      const after = rhythm(pose.abd);
+      pose.scapUp = clamp("scapUp", pose.scapUp + after.scapUp - before.scapUp);
+      pose.elev = clamp("elev", pose.elev + after.elev - before.elev);
+      pose.axial = clamp("axial", pose.axial + after.axial - before.axial);
       pose.flex = clamp("flex", pose.flex + dx * 0.12);
-      const share = Math.max(0, Math.min(1, (pose.abd - 8) / 30));
-      pose.scapUp = clamp("scapUp", pose.scapUp + lift * 0.85 * share);
-      pose.elev = clamp("elev", pose.elev + lift * 0.55 * share);
-      pose.axial = clamp("axial", pose.axial + lift * 0.35 * share);
       pose.protr = clamp("protr", pose.protr + dx * 0.08);
       pose.scapIR = clamp("scapIR", pose.scapIR + dx * 0.05);
     }
