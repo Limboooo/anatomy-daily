@@ -36,3 +36,7 @@
 ## 页面文字
 
 因使用了 CC BY-SA 2.1 JP 的影像，本仓库中的讲解文字与页面编排亦按 [CC BY-SA 2.1 JP](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en) 共享。
+
+## 页面字体
+
+拉丁学名与栏目标注使用 [Cormorant Garamond](https://github.com/CatharsisFonts/Cormorant)（Christian Thalmann，[SIL Open Font License 1.1](https://scripts.sil.org/OFL)），已内置于本站 `fonts/` 目录。中文标题优先使用设备上的宋体（如宋体-简 / Source Han Serif），正文使用系统黑体，不外链 Google Fonts，便于在国内打开。
