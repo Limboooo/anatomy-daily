@@ -322,6 +322,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   margin: 0;
   background: none;
   box-shadow: none;
+  scroll-margin-top: 4rem;
 }
 .chapter.feature { border-top: 0; padding-top: 0.15rem; }
 .chapter h2 {
@@ -363,6 +364,10 @@ button.shot {
   display: block;
   width: 100%;
   cursor: zoom-in;
+}
+button.shot:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 .plate figcaption, .cap {
   font-size: 0.84rem;
@@ -469,6 +474,7 @@ dialog.lb button {
     -webkit-backdrop-filter: blur(8px);
     padding-top: 0.45rem;
   }
+  .chapter { scroll-margin-top: 7.15rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
