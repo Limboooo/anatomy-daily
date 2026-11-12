@@ -58,7 +58,7 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
 html, body { min-height: 100%; }
 
 body {
@@ -98,10 +98,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 /* Full-width bar; reading column stays measured */
 .site-bar {
   border-bottom: 1px solid var(--line);
-  background: rgba(251, 246, 236, 0.92);
-  background: color-mix(in srgb, var(--paper) 82%, transparent);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: var(--paper);
   position: sticky;
   top: 0;
   z-index: 30;
@@ -317,12 +314,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .toc a:hover { color: var(--accent); background: var(--accent-soft); }
 
 .chapter {
+  scroll-margin-top: 4.5rem;
   padding: 1.55rem 0 0.5rem;
   border-top: 1px solid var(--line);
   margin: 0;
   background: none;
   box-shadow: none;
-  scroll-margin-top: 4rem;
 }
 .chapter.feature { border-top: 0; padding-top: 0.15rem; }
 .chapter h2 {
@@ -335,11 +332,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .chapter h2 .num {
   font-family: var(--latin);
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
   color: var(--accent);
-  font-size: 1.05rem;
-  letter-spacing: 0;
-  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.02em;
+  margin-right: 0.55rem;
 }
 .chapter p { margin: 0 0 0.75rem; }
 .chapter p:last-child { margin-bottom: 0; }
@@ -365,10 +363,6 @@ button.shot {
   width: 100%;
   cursor: zoom-in;
 }
-button.shot:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
 .plate figcaption, .cap {
   font-size: 0.84rem;
   color: var(--muted);
@@ -376,12 +370,12 @@ button.shot:focus-visible {
   line-height: 1.55;
 }
 .fig-no {
-  font-family: var(--latin);
-  font-style: italic;
-  font-weight: 600;
+  font-family: var(--sans);
+  font-style: normal;
+  font-weight: 650;
   color: var(--accent);
   margin-right: 0.3rem;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
 }
 
 details.fold {
@@ -461,20 +455,6 @@ dialog.lb button {
   cursor: pointer;
   font: inherit;
   color: var(--ink);
-}
-
-@media (min-width: 720px) {
-  .toc {
-    position: sticky;
-    top: 3.15rem;
-    z-index: 20;
-    background: rgba(234, 223, 203, 0.92);
-    background: color-mix(in srgb, var(--bg) 90%, transparent);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    padding-top: 0.45rem;
-  }
-  .chapter { scroll-margin-top: 7.15rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
