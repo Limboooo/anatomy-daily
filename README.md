@@ -14,6 +14,11 @@
 1. [锁骨](https://limboooo.github.io/anatomy-daily/lessons/01-clavicle.html)
 2. [肩胛骨](https://limboooo.github.io/anatomy-daily/lessons/02-scapula.html)
 
+另外两页还在单独的分支上，合进 `main` 之前不会出现在上面的网站里：
+
+- [全身骨骼](skeleton.html)：站立的整副骨架，可旋转缩放。点锁骨或肩胛骨进入已有的课，点其他骨头停在本页。
+- [肩带联动](shoulder.html)：拖左锁骨、左肩胛骨或左肱骨，另外两块按胸锁、肩锁和肩关节跟着动。锁骨课和肩胛骨课里的单块骨头查看器仍保留。
+
 ## 配图原则
 
 只用公有领域或开放许可的教材，不用 AI 生成的图或模型当教材。来源和许可见 [ATTRIBUTION.md](ATTRIBUTION.md)。
@@ -24,10 +29,17 @@
 
 纯静态 HTML / CSS / 少量 JS，手机浏览器可直接打开。无需构建步骤。GitHub Pages 从 `main` 分支根目录发布。仓库根目录有 `.nojekyll`，避免 Jekyll 改写路径。
 
-立体查看器用的是仓库里的 `<model-viewer>`（`js/model-viewer.min.js`），模型是 `models/*.glb`。本地预览请用一个静态服务器，不要直接双击 HTML，否则浏览器会拦住模块脚本：
+单块骨头用的是仓库里的 `<model-viewer>`（`js/model-viewer.min.js`）。全身骨骼和肩带联动用的是仓库里的 Three.js r170（`js/vendor/three.module.min.js`），不从外网加载。模型是 `models/*.glb`。本地预览请用一个静态服务器，不要直接双击 HTML，否则浏览器会拦住模块脚本：
 
 ```bash
 python3 -m http.server 8080
 ```
 
-然后打开 http://127.0.0.1:8080/lessons/01-clavicle.html 和 http://127.0.0.1:8080/lessons/02-scapula.html 。在模型上拖动可以旋转，滚动或捏合可以缩放。
+然后打开：
+
+- http://127.0.0.1:8080/skeleton.html
+- http://127.0.0.1:8080/shoulder.html
+- http://127.0.0.1:8080/lessons/01-clavicle.html
+- http://127.0.0.1:8080/lessons/02-scapula.html
+
+在模型上拖动可以旋转，滚动或捏合可以缩放。肩带那一页要拖在骨头上，旁边的骨头才会跟着动；拖空白处只转动视角。

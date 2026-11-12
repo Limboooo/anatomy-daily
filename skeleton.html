@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>全身骨骼 · 人体小课</title>
+  <meta name="description" content="可以转动的全身骨骼。点锁骨或肩胛骨进入已有的课，其他骨头停在这一页。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="back" href="index.html">← 目录</a>
+      <a class="brand" href="index.html">人体小课</a>
+    </div>
+    <header class="hero">
+      <p class="kicker">总览</p>
+      <h1>全身骨骼</h1>
+      <p class="lede">站立，脸朝向你。拖动可旋转，捏合或滚动可缩放。点一根骨头，有课就进去。</p>
+    </header>
+    <section class="card" id="model">
+      <p class="bone-note" id="bone-note" role="status"></p>
+      <div class="stage">
+        <canvas id="view" aria-label="全身骨骼。拖动旋转，点骨头进入课程"></canvas>
+        <p class="stage-status" id="stage-status">正在打开骨骼…</p>
+      </div>
+      <p class="viewer-error" id="viewer-error" hidden>这个浏览器打不开立体模型。</p>
+      <p class="cap">BodyParts3D 4.3 的原始网格，只改了朝向、单位和法线，形状未改。BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International。</p>
+    </section>
+    <p>锁骨和肩胛骨已经开课。点到别的骨头会停在这一页。</p>
+    <p><a href="shoulder.html">看左肩带怎么联动</a></p>
+    <footer>
+      <p><a href="index.html">返回目录</a> · <a href="ATTRIBUTION.md">全部来源</a></p>
+    </footer>
+  </div>
+  <script type="module" src="js/skeleton-view.js"></script>
+</body>
+</html>
