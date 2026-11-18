@@ -6,6 +6,7 @@
   <title>第 2 课 · 肩胛骨</title>
   <meta name="description" content="肩胛骨的位置、和锁骨、肱骨、肩袖的联动，以及推、拉、举过顶时它怎么干活和常见代偿。">
   <link rel="stylesheet" href="../css/style.css">
+  <script type="module" src="../js/model-viewer.min.js"></script>
 </head>
 <body>
   <div class="wrap">
@@ -18,7 +19,33 @@
       <h1>肩胛骨</h1>
       <p class="lede">scapula。上背两侧那对三角形的薄骨头，贴在肋骨后面，也叫蝴蝶骨。它跟锁骨是一对搭子。</p>
     </header>
+    <section class="card" id="model">
+      <h2>立体模型</h2>
+      <p class="viewer-hint">拖动可旋转，捏合或滚动可缩放。</p>
+      <div class="media">
+        <model-viewer
+          class="bone"
+          src="../models/scapula-left.glb"
+          alt="左肩胛骨三维模型，背面可见肩胛冈和肩峰。拖动可旋转，捏合或滚动可缩放。"
+          camera-controls
+          touch-action="none"
+          interaction-prompt="none"
+          shadow-intensity="0.7"
+          shadow-softness="1"
+          exposure="0.95"
+          environment-image="legacy"
+          camera-orbit="16deg 78deg auto"
+          min-camera-orbit="auto auto 18%"
+          max-camera-orbit="auto auto 400%"
+          field-of-view="30deg"
+        ></model-viewer>
+      </div>
+      <p class="viewer-error" hidden>这个浏览器打不开立体模型，可以继续看下面的位置图和转动短视频。</p>
+      <p class="cap">左肩胛骨背面。横着的骨脊是肩胛冈，外侧尽头是肩峰。网格来自 BodyParts3D 4.3（FJ3279，FMA13396），© The Database Center for Life Science，<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>。只调了朝向和明暗，形状未改。</p>
+      <p><a href="../shoulder.html">看肩带联动：拖一根，锁骨、肩胛骨和肱骨一起动</a></p>
+    </section>
     <nav class="toc">
+      <a href="#model">立体</a>
       <a href="#place">位置</a>
       <a href="#shape">结构</a>
       <a href="#link">联动</a>
@@ -60,6 +87,7 @@
     <section class="card" id="link">
       <h2>跟谁联动</h2>
       <p>肩胛骨是肩带里会滑动、会旋转的那一块。点开看它跟谁一起干活。</p>
+      <p><a href="../shoulder.html">打开可以拖的肩带</a></p>
       <details class="fold">
         <summary>锁骨 · 肩锁关节</summary>
         <p>肩峰和锁骨外侧端组成肩锁关节。锁骨再往内连到胸骨，整条肩带才挂在躯干上。锁骨主要负责把肩膀撑开，肩胛骨负责贴着胸廓移动。</p>
@@ -124,6 +152,7 @@
 
     <section class="card" id="source">
       <h2>来源与许可</h2>
+      <p>立体模型：BodyParts3D 4.3 左肩胛骨（文件 FJ3279，概念 FMA13396）。生命科学数据库归档的现行许可是 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>，署名 “BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International”。Anatomography 页面仍要求保留较早的 CC BY-SA 2.1 JP 署名。</p>
       <p>位置图和转动影像：Anatomography（Life Science Database / BodyParts3D），<a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC BY-SA 2.1 JP</a>。</p>
       <p>细部图：Henry Vandyke Carter，《格雷氏解剖学》1918 年版图版 202（肋面）、203（背面），公有领域。</p>
       <p>这是解剖讲解，不代替训练指导，也不代替就医。</p>
@@ -141,6 +170,7 @@
     <img alt="">
     <form method="dialog"><button type="submit">关闭</button></form>
   </dialog>
+  <script src="../js/bone-viewer.js"></script>
   <script src="../js/app.js"></script>
 </body>
 </html>

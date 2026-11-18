@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>肩带联动 · 人体小课</title>
+  <meta name="description" content="拖动左锁骨、左肩胛骨或左肱骨，另外两块按胸锁、肩锁和肩关节跟着动。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="back" href="index.html">← 目录</a>
+      <a class="brand" href="index.html">人体小课</a>
+    </div>
+    <header class="hero">
+      <p class="kicker">肩带</p>
+      <h1>三块骨头一起动</h1>
+      <p class="lede">左锁骨、左肩胛骨、左肱骨。拖一根，旁边的跟着走。拖空白处转动视角，捏合或滚动可缩放。</p>
+    </header>
+    <section class="card" id="model">
+      <p class="bone-note" id="bone-note" role="status">拖锁骨、肩胛骨或肱骨。</p>
+      <div class="stage">
+        <canvas id="view" aria-label="左肩带。拖一根骨头，另外两根跟着动"></canvas>
+        <p class="stage-status" id="stage-status">正在打开肩带…</p>
+      </div>
+      <p class="viewer-error" id="viewer-error" hidden>这个浏览器打不开立体模型。</p>
+      <div class="actions">
+        <button class="btn ghost" id="reset" type="button">回到原位</button>
+        <a class="btn ghost" href="skeleton.html">回全身骨骼</a>
+      </div>
+      <p class="cap">BodyParts3D 4.3 左锁骨 FJ6347、左肩胛骨 FJ3279、左肱骨 FJ6373。形状未改。BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International。</p>
+    </section>
+    <section class="card">
+      <h2>三个关节怎么连</h2>
+      <p>胸锁关节在锁骨内侧，是整条胳膊挂到胸骨上的地方。锁骨抬起来或向前，外侧那头就带着肩胛骨走。</p>
+      <p>肩锁关节把锁骨外侧和肩胛骨的肩峰连在一起。肩胛骨可以在这里上回旋，关节盂跟着朝上。</p>
+      <p>肱骨头待在关节盂里。胳膊抬高时，后半段会带上肩胛和锁骨，不是只在窝里空转。范围有限，所以不会散开。这是关节关系的示意，不是临床检查。</p>
+      <p><a href="lessons/01-clavicle.html">第 1 课：锁骨</a> · <a href="lessons/02-scapula.html">第 2 课：肩胛骨</a></p>
+    </section>
+    <footer>
+      <p><a href="index.html">返回目录</a> · <a href="ATTRIBUTION.md">全部来源</a></p>
+    </footer>
+  </div>
+  <script type="module" src="js/shoulder-view.js"></script>
+</body>
+</html>
