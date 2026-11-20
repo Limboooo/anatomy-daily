@@ -333,6 +333,12 @@ def lesson_for(name: str) -> str:
         return "lessons/01-clavicle.html"
     if re.search(r"\bscapula\b", low):
         return "lessons/02-scapula.html"
+    if re.search(r"\bhumerus\b", low):
+        return "lessons/04-humerus.html"
+    if re.search(r"\bradius\b", low):
+        return "lessons/07-radius.html"
+    if re.search(r"\bulna\b", low):
+        return "lessons/08-ulna.html"
     return ""
 
 

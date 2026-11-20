@@ -700,7 +700,7 @@
     "bp": "BP24066",
     "fma": "FMA23131",
     "sha256": "fe3987aa1ce56130acc913ef5b7299000ae56ffa6d3f35e0e0c0b205ab457efe",
-    "lesson": "",
+    "lesson": "lessons/04-humerus.html",
     "vertices": 2163
   },
   {
@@ -898,7 +898,7 @@
     "bp": "BP23197",
     "fma": "FMA23465",
     "sha256": "53f422bbdf8e9c18e5391f7e87ca8708cbd2c002168651e4a37831368ea6b631",
-    "lesson": "",
+    "lesson": "lessons/07-radius.html",
     "vertices": 382
   },
   {
@@ -1206,7 +1206,7 @@
     "bp": "BP23154",
     "fma": "FMA23468",
     "sha256": "8188537e491981f8433fd25b35bc68bac733505ec4a911a91199a52349f0e588",
-    "lesson": "",
+    "lesson": "lessons/08-ulna.html",
     "vertices": 515
   },
   {
@@ -2031,7 +2031,7 @@
     "bp": "BP23164",
     "fma": "FMA23130",
     "sha256": "fe018e21736f20efaf08a7329b250e43d6909d52c5ec3a3000fc14a1fea5f1a2",
-    "lesson": "",
+    "lesson": "lessons/04-humerus.html",
     "vertices": 2181
   },
   {
@@ -2229,7 +2229,7 @@
     "bp": "BP23239",
     "fma": "FMA23464",
     "sha256": "220997d9c4afaf9972c5d3c2ff1db9f6c2067bab9f583e350605e41cdfb7f8f6",
-    "lesson": "",
+    "lesson": "lessons/07-radius.html",
     "vertices": 385
   },
   {
@@ -2537,7 +2537,7 @@
     "bp": "BP23195",
     "fma": "FMA23467",
     "sha256": "d9c41d768a44c8d8332bf9682b38e77f7d78c357c6f04476acc1eb0389664f96",
-    "lesson": "",
+    "lesson": "lessons/08-ulna.html",
     "vertices": 500
   },
   {

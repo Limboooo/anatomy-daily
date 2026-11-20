@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>第 4 课 · 肱骨</title>
+  <meta name="description" content="肱骨是上臂里那根长骨，上端连肩胛组成肩关节，下端连尺骨和桡骨组成肘关节。">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="module" src="../js/model-viewer.min.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="back" href="../index.html">← 目录</a>
+      <a class="brand" href="../index.html">人体小课</a>
+    </div>
+    <header class="hero">
+      <p class="kicker">第 4 课 · 骨头</p>
+      <h1>肱骨</h1>
+      <p class="lede">humerus。上臂里那根最长的骨头，一头连肩膀，一头连到肘。</p>
+    </header>
+    <section class="card" id="model">
+      <h2>立体模型</h2>
+      <p class="viewer-hint">拖动可旋转，捏合或滚动可缩放。</p>
+      <div class="media">
+        <model-viewer
+          class="bone"
+          src="../models/humerus-left.glb"
+          alt="左肱骨三维模型，上端连肩，下端连肘。拖动可旋转，捏合或滚动可缩放。"
+          camera-controls
+          touch-action="none"
+          interaction-prompt="none"
+          shadow-intensity="0.7"
+          shadow-softness="1"
+          exposure="0.95"
+          environment-image="legacy"
+          camera-orbit="32deg 72deg auto"
+          min-camera-orbit="auto auto 18%"
+          max-camera-orbit="auto auto 400%"
+          field-of-view="30deg"
+        ></model-viewer>
+      </div>
+      <p class="viewer-error" hidden>这个浏览器打不开立体模型，可以继续看下面的位置图和转动短视频。</p>
+      <p class="cap">左肱骨。网格来自 BodyParts3D 4.3（FJ6373，FMA23131），© The Database Center for Life Science，<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>。从全身模型里拆出这一块，只把包围盒中心移到原点，形状未改。</p>
+      <p><a href="../shoulder.html">看肩带联动：拖一根，锁骨、肩胛骨和肱骨一起动</a></p>
+    </section>
+    <nav class="toc">
+      <a href="#model">立体</a>
+      <a href="#place">位置</a>
+      <a href="#shape">结构</a>
+      <a href="#link">联动</a>
+      <a href="#move">动作里怎么干活</a>
+      <a href="#touch">自己摸一下</a>
+      <a href="#media">图和视频</a>
+      <a href="#source">来源</a>
+    </nav>
+
+    <section class="card" id="place">
+      <h2>它在哪儿</h2>
+      <p>拉丁名 humerus，就是上臂里那根最长的骨头，一头连肩膀，一头连到肘。</p>
+      <div class="media">
+        <button class="shot" type="button" data-full="../media/humerus-locator.png" aria-label="放大肱骨位置图">
+          <img src="../media/humerus-locator.png" alt="全身骨骼正面和侧面，红色标出左右肱骨，从肩膀连到肘">
+        </button>
+      </div>
+      <p class="cap">红色标出的就是肱骨，正面和侧面各一张。Anatomography，CC BY-SA 2.1 JP。点图可放大。</p>
+    </section>
+
+    <section class="card" id="shape">
+      <h2>长什么样</h2>
+      <p>肩头那端是圆圆的肱骨头，坐进肩胛骨外侧的关节盂，组成肩关节。肘这一端，内外两侧能摸到两个骨突，叫内上髁和外上髁；下端前面分别跟尺骨、桡骨相接，组成肘关节。胳膊伸直时，肘后面那块尖尖的突出其实是尺骨鹰嘴，肱骨后面有个窝正好把它接住。</p>
+      <div class="media">
+        <button class="shot" type="button" data-full="../media/gray207.png" aria-label="放大肱骨前面图">
+          <img src="../media/gray207.png" alt="格雷氏解剖学 1918 年版图版 207，左肱骨前面">
+        </button>
+      </div>
+      <p class="cap">格雷氏解剖学 1918 年版图版 207：左肱骨前面。公有领域。点图可放大。</p>
+      <div class="media">
+        <button class="shot" type="button" data-full="../media/gray208.png" aria-label="放大肱骨后面图">
+          <img src="../media/gray208.png" alt="格雷氏解剖学 1918 年版图版 208，左肱骨后面">
+        </button>
+      </div>
+      <p class="cap">图版 208：左肱骨后面。</p>
+    </section>
+
+    <section class="card" id="link">
+      <h2>跟谁联动</h2>
+      <p>点开看它跟谁一起干活。</p>
+      <p><a href="../shoulder.html">打开可以拖的肩带</a></p>
+      <details class="fold">
+        <summary>肩胛骨和锁骨</summary>
+        <p>上边跟肩胛骨组成肩关节，锁骨再把整条肩带挂到胸骨上。</p>
+        <p><a href="02-scapula.html">打开第 2 课：肩胛骨</a></p>
+        <p><a href="01-clavicle.html">打开第 1 课：锁骨</a></p>
+      </details>
+      <details class="fold">
+        <summary>三角肌和肩袖</summary>
+        <p>三角肌止在肱骨中段外侧的三角肌粗隆，把胳膊抬起来；肩袖四块小肌肉附着在大结节和小结节上，把肱骨头吸在关节盂里。</p>
+        <p><a href="03-deltoid.html">打开第 3 课：三角肌</a></p>
+      </details>
+      <details class="fold">
+        <summary>胸大肌、背阔肌和大圆肌</summary>
+        <p>胸大肌、背阔肌、大圆肌止在大小结节之间的那条沟附近，主要让胳膊内收、内旋，背阔肌还帮着把胳膊往后带。</p>
+      </details>
+      <details class="fold">
+        <summary>尺骨、桡骨和肘</summary>
+        <p>下边跟尺骨、桡骨组成肘关节：肱肌、肱桡肌帮着屈肘；肱二头肌也屈肘，但它并不起止在肱骨上，长头肌腱只是从那条沟里穿过。肱三头肌在后面，让肘伸直。</p>
+        <p><a href="05-biceps.html">打开第 5 课：肱二头肌</a></p>
+        <p><a href="06-triceps.html">打开第 6 课：肱三头肌</a></p>
+        <p><a href="07-radius.html">打开第 7 课：桡骨</a></p>
+        <p><a href="08-ulna.html">打开第 8 课：尺骨</a></p>
+      </details>
+    </section>
+
+    <section class="card" id="move">
+      <h2>在动作里怎么干活</h2>
+      <p>这是讲结构怎么配合，不是训练计划。</p>
+      <details class="fold" open>
+        <summary>推</summary>
+        <p>推，比如卧推、俯卧撑：胸大肌和三角肌前束带动肱骨，肱三头肌再把肘伸直。</p>
+      </details>
+      <details class="fold">
+        <summary>拉</summary>
+        <p>拉，比如划船、引体：背阔肌拉的是肱骨，把它往后、往回带，不能只弯肘。</p>
+      </details>
+      <details class="fold">
+        <summary>举过顶</summary>
+        <p>举过顶时，肱骨要往上走，肩胛必须上回旋，关节盂朝上给它让路；肩膀不要过度内旋，不然大结节容易挨到肩峰。</p>
+      </details>
+      <details class="fold">
+        <summary>常见代偿</summary>
+        <p>常见代偿：推的时候肘过度外展又内旋，肩前面容易挤；拉的时候只屈肘、肱骨不怎么动，背就使不上力。</p>
+      </details>
+    </section>
+
+    <section class="card" id="touch">
+      <h2>自己摸一下</h2>
+      <p>你现在可以摸一下：对侧手捏住上臂中段，里面那根硬邦邦的就是肱骨干。再摸肘内侧和外侧那两个骨突，就是内上髁和外上髁。肘伸直时，后面那块尖的是尺骨鹰嘴，不是肱骨。</p>
+    </section>
+
+    <section class="card" id="media">
+      <h2>转动短视频和 PDF</h2>
+      <p>先看它在身上的位置，再看全身转动和特写转动。细部图前面和后面都有。</p>
+      <div class="media">
+        <video controls playsinline preload="metadata" poster="../media/humerus-locator.png" title="肱骨全身转动">
+          <source src="../media/humerus-rotate-body.mp4" type="video/mp4">
+        </video>
+      </div>
+      <p class="cap">Anatomography / BodyParts3D，CC BY-SA 2.1 JP。</p>
+      <p>特写转一圈。</p>
+      <div class="media">
+        <video controls playsinline preload="metadata" title="肱骨特写转动">
+          <source src="../media/humerus-rotate-closeup.mp4" type="video/mp4">
+        </video>
+      </div>
+      <p class="cap">左肱骨特写转动，已转成 H.264 短视频。</p>
+      <p>完整版 PDF 把讲解、位置图和细部图收在一份里。</p>
+      <div class="actions">
+        <a class="btn ghost" href="../media/lesson-04-humerus.pdf">下载完整版 PDF（讲解、位置图、细部图都在里面）</a>
+      </div>
+    </section>
+
+    <section class="card" id="source">
+      <h2>来源与许可</h2>
+      <p>立体模型：BodyParts3D 4.3 左肱骨（文件 FJ6373，概念 FMA23131），与全身骨骼用的是同一份网格。生命科学数据库归档的现行许可是 <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>，署名 “BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International”。Anatomography 页面仍要求保留较早的 CC BY-SA 2.1 JP 署名。</p>
+      <p>位置图和转动影像：Anatomography（Life Science Database / BodyParts3D），<a href="https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en">CC BY-SA 2.1 JP</a>。</p>
+      <p>细部图：Henry Vandyke Carter，《格雷氏解剖学》1918 年版图版 207（前面）、208（后面），公有领域。</p>
+      <p>这是解剖讲解，不代替训练指导，也不代替就医。</p>
+    </section>
+
+    <nav class="nav-lessons">
+      <a href="03-deltoid.html">← 上一课：三角肌</a>
+      <a href="05-biceps.html">下一课：肱二头肌 →</a>
+    </nav>
+    <footer>
+      <p><a href="../index.html">返回目录</a> · <a href="../ATTRIBUTION.md">全部来源</a></p>
+    </footer>
+  </div>
+  <dialog class="lb" aria-label="放大图片">
+    <img alt="">
+    <form method="dialog"><button type="submit">关闭</button></form>
+  </dialog>
+  <script src="../js/bone-viewer.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
