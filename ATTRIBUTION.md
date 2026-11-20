@@ -14,10 +14,15 @@
 | --- | --- | --- | --- | --- | --- |
 | 锁骨 | FJ6347 | BP23283 | FMA13323 | Left clavicle | `7bd988c1e54e9696d581e4be2e94f5de9cc08c00260dcf88aba42cc21f0b533f` |
 | 肩胛骨 | FJ3279 | BP23279 | FMA13396 | Left scapula | `87cebf8702718e03dd10afbee87a50abce47139802ff305c749b33f40d451fda` |
+| 肱骨 | FJ6373 | BP24066 | FMA23131 | Left humerus | `fe3987aa1ce56130acc913ef5b7299000ae56ffa6d3f35e0e0c0b205ab457efe` |
+| 桡骨 | FJ6349 | BP23197 | FMA23465 | Left radius | `53f422bbdf8e9c18e5391f7e87ca8708cbd2c002168651e4a37831368ea6b631` |
+| 尺骨 | FJ6396 | BP23154 | FMA23468 | Left ulna | `8188537e491981f8433fd25b35bc68bac733505ec4a911a91199a52349f0e588` |
 
 4.3 清单把左锁骨写成 `FJ3237+FJ6347`，两份 OBJ 的表示 ID 都是 BP23283，包围盒几乎重合，顶点平均距离约 0.26 mm，是同一块骨头的先后版本，不是两截拼在一起。页面使用较新的 FJ6347（文件时间 2014-01-31）。较早一份 FJ3237 的 SHA-256 是 `a7eda265732db6c87ab0fb8c8f78a274882ceca59510991b0e7b32078c08152f`，没有并进模型。
 
 仓库里的 `models/clavicle-left.glb` 与 `models/scapula-left.glb` 只做了这些变换：包围盒中心移到原点、毫米换成米、转到 glTF 的 Y 轴向上（肩胛骨背面朝向默认相机，锁骨的 S 形放在水平面里）、重算平滑法线，并加上象牙色材质。顶点没有平滑、减面或重塑。转换步骤记在 `tools/build_bone_glbs.py`。
+
+`models/humerus-left.glb`、`models/radius-left.glb`、`models/ulna-left.glb` 不是另下一套网格。它们是全身模型里已经收录的左肱骨、左桡骨、左尺骨，用 `tools/extract_limb_glbs.py` 拆出来，只把各自的包围盒中心移到原点。法线和顶点形状沿用全身模型，没有平滑、减面或重塑。同一脚本把这三课的地址写进全身模型，点骨架上的左右肱骨、桡骨、尺骨会打开对应课页。源 OBJ 的 SHA-256 与全身清单 `models/skeleton-sources.json` 里的记录相同。
 
 许可：生命科学数据库归档在 2025-02-27 把 BodyParts3D 的利用许诺更新为 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。归档站要求的署名是：
 
@@ -70,8 +75,14 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Scapula - anterior view](https://commons.wikimedia.org/wiki/File:Scapula_-_anterior_view.png)
 - [Scapula - animation](https://commons.wikimedia.org/wiki/File:Scapula_-_animation.gif)
 - [Left scapula - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_scapula_-_close-up_-_animation.gif)
+- [Deltoid muscle frontal](https://commons.wikimedia.org/wiki/File:Deltoid_muscle_frontal2.png)、[lateral](https://commons.wikimedia.org/wiki/File:Deltoid_muscle_lateral.png)、[back](https://commons.wikimedia.org/wiki/File:Deltoid_muscle_back.png)、[animation](https://commons.wikimedia.org/wiki/File:Deltoid_muscle_animation.gif)、[animation3](https://commons.wikimedia.org/wiki/File:Deltoid_muscle_animation3.gif)
+- [Humerus - anterior view](https://commons.wikimedia.org/wiki/File:Humerus_-_anterior_view.png)、[lateral view](https://commons.wikimedia.org/wiki/File:Humerus_-_lateral_view.png)、[posterior view](https://commons.wikimedia.org/wiki/File:Humerus_-_posterior_view.png)、[animation](https://commons.wikimedia.org/wiki/File:Humerus_animation.gif)、[Left humerus - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_humerus_-_close-up_-_animation.gif)
+- [Biceps brachii muscle01](https://commons.wikimedia.org/wiki/File:Biceps_brachii_muscle01.png)、[muscle04](https://commons.wikimedia.org/wiki/File:Biceps_brachii_muscle04.png)、[animation01](https://commons.wikimedia.org/wiki/File:Biceps_brachii_muscle_-_animation01.gif)、[animation03](https://commons.wikimedia.org/wiki/File:Biceps_brachii_muscle_-_animation03.gif)。特写里绿色是长头，红色是短头。
+- [Triceps brachii animation01](https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle_-_animation01.gif)、[animation02](https://commons.wikimedia.org/wiki/File:Triceps_brachii_muscle_-_animation02.gif)。特写里红色是长头，黄色是外侧头，绿色是内侧头。
+- [Radius - anterior view](https://commons.wikimedia.org/wiki/File:Radius_-_anterior_view.png)、[lateral view](https://commons.wikimedia.org/wiki/File:Radius_-_lateral_view.png)、[animation](https://commons.wikimedia.org/wiki/File:Radius_-_animation.gif)、[Left radius - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_radius_-_close-up_-_animation.gif)
+- [Ulna - anterior view](https://commons.wikimedia.org/wiki/File:Ulna_-_anterior_view.png)、[anterior view2](https://commons.wikimedia.org/wiki/File:Ulna_-_anterior_view2.png)、[animation](https://commons.wikimedia.org/wiki/File:Ulna_-_animation.gif)、[animation2](https://commons.wikimedia.org/wiki/File:Ulna_-_animation2.gif)。共享资源没有单独的尺骨侧面静帧或孤立特写；位置图侧面取自转动影像的一帧，特写用更近的 animation2。
 
-位置图上的中文标注为本课所加。转动 GIF 已转成 H.264 MP4，便于在网页和微信中播放。
+位置图上的中文标注为本课所加。转动 GIF 已转成 H.264 MP4，便于在网页和微信中播放。第 3 到第 8 课用的就是这些原片。
 
 ## 格雷氏解剖学（1918）
 
@@ -83,6 +94,14 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Gray201](https://commons.wikimedia.org/wiki/File:Gray201.png) 胸锁关节
 - [Gray202](https://commons.wikimedia.org/wiki/File:Gray202.png) 左肩胛骨肋面
 - [Gray203](https://commons.wikimedia.org/wiki/File:Gray203.png) 左肩胛骨背面
+- [Gray207](https://commons.wikimedia.org/wiki/File:Gray207.png) 左肱骨前面
+- [Gray208](https://commons.wikimedia.org/wiki/File:Gray208.png) 左肱骨后面
+- [Gray213](https://commons.wikimedia.org/wiki/File:Gray213.png) 左前臂骨前面（桡骨、尺骨）
+- [Gray214](https://commons.wikimedia.org/wiki/File:Gray214.png) 左前臂骨后面（桡骨、尺骨）
+- [Gray410](https://commons.wikimedia.org/wiki/File:Gray410.png) 胸前和上臂前面浅层（三角肌、肱二头肌）
+- [Gray411](https://commons.wikimedia.org/wiki/File:Gray411.png) 胸前和上臂前面更深一层（肱二头肌）
+- [Gray412](https://commons.wikimedia.org/wiki/File:Gray412.png) 肩背浅层（三角肌、肱三头肌）
+- [Gray413](https://commons.wikimedia.org/wiki/File:Gray413.png) 上臂中段横切（肱三头肌）
 
 ## 页面上的三维查看器
 
@@ -94,4 +113,4 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 
 ## 页面文字
 
-因使用了 CC BY-SA 2.1 JP 的影像，本仓库中的讲解文字与页面编排亦按 [CC BY-SA 2.1 JP](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en) 共享。上面两个 GLB 文件单独适用 CC BY 4.0。
+因使用了 CC BY-SA 2.1 JP 的影像，本仓库中的讲解文字与页面编排亦按 [CC BY-SA 2.1 JP](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en) 共享。锁骨、肩胛骨、肱骨、桡骨、尺骨的单独 GLB，以及全身和肩带模型，单独适用 CC BY 4.0。
