@@ -71,6 +71,12 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Scapula - animation](https://commons.wikimedia.org/wiki/File:Scapula_-_animation.gif)
 - [Left scapula - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_scapula_-_close-up_-_animation.gif)
 
+第 9 课肱肌同样使用这一来源：
+
+- `media/brachialis-locator.png`：正面与侧面，红色标出肱肌
+- `media/brachialis-rotate-body.mp4`：全身转动
+- `media/brachialis-rotate-closeup.mp4`：上臂特写转动
+
 位置图上的中文标注为本课所加。转动 GIF 已转成 H.264 MP4，便于在网页和微信中播放。
 
 ## 格雷氏解剖学（1918）
@@ -83,6 +89,8 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Gray201](https://commons.wikimedia.org/wiki/File:Gray201.png) 胸锁关节
 - [Gray202](https://commons.wikimedia.org/wiki/File:Gray202.png) 左肩胛骨肋面
 - [Gray203](https://commons.wikimedia.org/wiki/File:Gray203.png) 左肩胛骨背面
+- [Gray411](https://commons.wikimedia.org/wiki/File:Gray411.png) 胸前与上臂前面深层，肱肌在肱二头肌深面
+- [Gray413](https://commons.wikimedia.org/wiki/File:Gray413.png) 上臂中段横切，肱肌贴在肱骨前面，肱三头肌在后方
 
 ## 页面上的三维查看器
 

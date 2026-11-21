@@ -13,6 +13,9 @@
 
 1. [锁骨](https://limboooo.github.io/anatomy-daily/lessons/01-clavicle.html)
 2. [肩胛骨](https://limboooo.github.io/anatomy-daily/lessons/02-scapula.html)
+9. [肱肌](https://limboooo.github.io/anatomy-daily/lessons/09-brachialis.html)
+
+目录里第 3–8 课和第 10 课及之后仍是未开课。
 
 另外两页还在单独的分支上，合进 `main` 之前不会出现在上面的网站里：
 
@@ -41,5 +44,6 @@ python3 -m http.server 8080
 - http://127.0.0.1:8080/shoulder.html
 - http://127.0.0.1:8080/lessons/01-clavicle.html
 - http://127.0.0.1:8080/lessons/02-scapula.html
+- http://127.0.0.1:8080/lessons/09-brachialis.html
 
 在模型上拖动可以旋转，滚动或捏合可以缩放。肩带那一页要拖在骨头上，旁边的骨头才会跟着动；拖空白处只转动视角。
