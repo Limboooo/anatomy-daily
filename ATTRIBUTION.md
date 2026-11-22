@@ -71,6 +71,13 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Scapula - animation](https://commons.wikimedia.org/wiki/File:Scapula_-_animation.gif)
 - [Left scapula - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_scapula_-_close-up_-_animation.gif)
 
+第 10 课腕骨同样使用这一来源。位置图把全身掌面和背面两张官方静帧拼在一起，并加了中文标注：
+
+- [Carpus 01 palmar view](https://commons.wikimedia.org/wiki/File:Carpus_01_palmar_view.png)
+- [Carpus 03 dorsal view](https://commons.wikimedia.org/wiki/File:Carpus_03_dorsal_view.png)
+- [Carpus - animation01](https://commons.wikimedia.org/wiki/File:Carpus_-_animation01.gif)：全身转动，已转成 H.264 MP4（`media/carpals-rotate-body.mp4`）
+- [Carpus (left hand) - animation01](https://commons.wikimedia.org/wiki/File:Carpus_(left_hand)_-_animation01.gif)：左手特写转动，已转成 H.264 MP4（`media/carpals-rotate-closeup.mp4`）
+
 位置图上的中文标注为本课所加。转动 GIF 已转成 H.264 MP4，便于在网页和微信中播放。
 
 ## 格雷氏解剖学（1918）
@@ -83,6 +90,8 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Gray201](https://commons.wikimedia.org/wiki/File:Gray201.png) 胸锁关节
 - [Gray202](https://commons.wikimedia.org/wiki/File:Gray202.png) 左肩胛骨肋面
 - [Gray203](https://commons.wikimedia.org/wiki/File:Gray203.png) 左肩胛骨背面
+- [Gray219](https://commons.wikimedia.org/wiki/File:Gray219.png) 左手掌面，八块腕骨，掌面能看见豌豆骨
+- [Gray220](https://commons.wikimedia.org/wiki/File:Gray220.png) 左手背面。拇指在桡侧，背面看不见豌豆骨。图上 Navicular 是手舟骨，Triangular 是三角骨。维基共享资源把这条文件的英文简述写成了右手掌面，和原图不符，本课不沿用那句简述
 
 ## 页面上的三维查看器
 
