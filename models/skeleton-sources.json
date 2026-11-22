@@ -414,7 +414,7 @@
     "bp": "BP21759",
     "fma": "FMA24447",
     "sha256": "e4a923dfbd7ff9254b52c2abb348a4aa9bbc08093af0cdcf35da7c330beebb1a",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 264
   },
   {
@@ -678,7 +678,7 @@
     "bp": "BP23940",
     "fma": "FMA24449",
     "sha256": "a4a3e5bced56806bbe0899e054b2acf4ae2b7e634b431d4444a524d0b1296b59",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 281
   },
   {
@@ -788,7 +788,7 @@
     "bp": "BP21780",
     "fma": "FMA24438",
     "sha256": "826bc170704322486b339c88c39723a0dc35a941c0d0c494549ab8a31dca1973",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 160
   },
   {
@@ -887,7 +887,7 @@
     "bp": "BP21678",
     "fma": "FMA24442",
     "sha256": "077267dd01ee16d4a4012c942ee2641a3e5dd27a294e73d3de674ebd70084e94",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 92
   },
   {
@@ -909,7 +909,7 @@
     "bp": "BP21685",
     "fma": "FMA24436",
     "sha256": "b11e96eeb99b1b080d64c340488e4bf9f03f02e54c9a85294c3aee7f6f4470a8",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 176
   },
   {
@@ -1162,7 +1162,7 @@
     "bp": "BP21682",
     "fma": "FMA24444",
     "sha256": "1495226cdb8651877afc9e927e27ef8e7f700132d7158350c806ead841caf3f9",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 233
   },
   {
@@ -1173,7 +1173,7 @@
     "bp": "BP21753",
     "fma": "FMA24445",
     "sha256": "e4963e0776d28cf515f5cb713e176bb5a1c56d502b8326e10197cd62dd19c208",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 264
   },
   {
@@ -1184,7 +1184,7 @@
     "bp": "BP23878",
     "fma": "FMA24440",
     "sha256": "06a74e9efc59718a64cdf126d766256656c61d8463234023d4916eeaae6b020b",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 159
   },
   {
@@ -1745,7 +1745,7 @@
     "bp": "BP21773",
     "fma": "FMA24446",
     "sha256": "f5f3a36396a18218747b8d6e5031b2366c31ee1e07e276cd904ec37521f32934",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 256
   },
   {
@@ -2009,7 +2009,7 @@
     "bp": "BP23822",
     "fma": "FMA24448",
     "sha256": "0c6ef72a8b7b81fafd07043f276e43330daf79b7b301d7287022140f69f68c13",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 301
   },
   {
@@ -2119,7 +2119,7 @@
     "bp": "BP23841",
     "fma": "FMA24437",
     "sha256": "0c760eba4f90f1cba899e8ff02ac696fe689e34537624e92474baae3e0dcb7be",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 196
   },
   {
@@ -2218,7 +2218,7 @@
     "bp": "BP21756",
     "fma": "FMA24441",
     "sha256": "814a63f5b912ef072ff1f5e0ee2f5d3175f323d33e6e7f4c76618cf59daa5709",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 110
   },
   {
@@ -2240,7 +2240,7 @@
     "bp": "BP21772",
     "fma": "FMA24435",
     "sha256": "965365c9f4e6b200241f11b8c3f835576af14a80cb84e492d25cf7fc3e4f6b99",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 195
   },
   {
@@ -2493,7 +2493,7 @@
     "bp": "BP20135",
     "fma": "FMA24443",
     "sha256": "c3298ec93bb2226f27310337b9ad1a8a9405d42f36da96072b8af3735a4034ae",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 277
   },
   {
@@ -2504,7 +2504,7 @@
     "bp": "BP23964",
     "fma": "FMA23725",
     "sha256": "ea58285389bced4ad7ab5acfbf8e294e2dd3732cb3e1c293e27c2c9dad64609f",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 271
   },
   {
@@ -2515,7 +2515,7 @@
     "bp": "BP21751",
     "fma": "FMA24439",
     "sha256": "ebf70276bd13475a0fbd2b0725f07e594c86bc41473d658f6fddf0b5021ba036",
-    "lesson": "",
+    "lesson": "lessons/10-carpals.html",
     "vertices": 139
   },
   {

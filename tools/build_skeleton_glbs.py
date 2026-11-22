@@ -327,12 +327,26 @@ def slug(name: str, extra: str = "") -> str:
     return f"{base}-{extra}" if extra else base
 
 
+CARPALS = (
+    "scaphoid",
+    "lunate",
+    "triquetral",
+    "pisiform",
+    "trapezium",
+    "trapezoid",
+    "capitate",
+    "hamate",
+)
+
+
 def lesson_for(name: str) -> str:
     low = name.lower()
     if "clavicle" in low:
         return "lessons/01-clavicle.html"
     if re.search(r"\bscapula\b", low):
         return "lessons/02-scapula.html"
+    if any(re.search(rf"\b{bone}\b", low) for bone in CARPALS):
+        return "lessons/10-carpals.html"
     return ""
 
 
