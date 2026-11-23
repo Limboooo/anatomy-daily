@@ -327,12 +327,29 @@ def slug(name: str, extra: str = "") -> str:
     return f"{base}-{extra}" if extra else base
 
 
+HAND_DIGITS = (
+    "thumb",
+    "index finger",
+    "middle finger",
+    "ring finger",
+    "little finger",
+)
+LESSON_METACARPALS = "lessons/11-metacarpals-phalanges.html"
+
+
 def lesson_for(name: str) -> str:
     low = name.lower()
     if "clavicle" in low:
         return "lessons/01-clavicle.html"
     if re.search(r"\bscapula\b", low):
         return "lessons/02-scapula.html"
+    if "metacarpal" in low:
+        return LESSON_METACARPALS
+    phalanx = re.match(
+        r"(distal|middle|proximal) phalanx of (left|right) (.+)$", low
+    )
+    if phalanx and phalanx.group(3) in HAND_DIGITS:
+        return LESSON_METACARPALS
     return ""
 
 
