@@ -71,6 +71,13 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Scapula - animation](https://commons.wikimedia.org/wiki/File:Scapula_-_animation.gif)
 - [Left scapula - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_scapula_-_close-up_-_animation.gif)
 
+第 11 课掌骨与指骨同样使用这一来源。位置图把两张全身掌面官方静帧拼在一起，并加了中文标注。转动是两则 animation01 左右并排，左掌骨、右指骨：
+
+- [Metacarpal bones 01 palmar view](https://commons.wikimedia.org/wiki/File:Metacarpal_bones_01_palmer_view.png)（共享资源文件名里的 palmer 是原文件拼写）
+- [Phalanges of the hand 01 palmar view](https://commons.wikimedia.org/wiki/File:Phalanges_of_the_hand_01_palmar_view.png)
+- [Metacarpal bones - animation01](https://commons.wikimedia.org/wiki/File:Metacarpal_bones_-_animation01.gif) 与 [Phalanges of the hand - animation01](https://commons.wikimedia.org/wiki/File:Phalanges_of_the_hand_-_animation01.gif)：全身转动，已并排转成 H.264 MP4（`media/metacarpals-phalanges-rotate-body.mp4`）
+- [Metacarpal bones (left hand) - animation01](https://commons.wikimedia.org/wiki/File:Metacarpal_bones_(left_hand)_-_animation01.gif) 与 [Phalanges of the hand (left hand) - animation01](https://commons.wikimedia.org/wiki/File:Phalanges_of_the_hand_(left_hand)_-_animation01.gif)：左手特写转动，已并排转成 H.264 MP4（`media/metacarpals-phalanges-rotate-closeup.mp4`）
+
 位置图上的中文标注为本课所加。转动 GIF 已转成 H.264 MP4，便于在网页和微信中播放。
 
 ## 格雷氏解剖学（1918）
@@ -83,6 +90,8 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Gray201](https://commons.wikimedia.org/wiki/File:Gray201.png) 胸锁关节
 - [Gray202](https://commons.wikimedia.org/wiki/File:Gray202.png) 左肩胛骨肋面
 - [Gray203](https://commons.wikimedia.org/wiki/File:Gray203.png) 左肩胛骨背面
+- [Gray219](https://commons.wikimedia.org/wiki/File:Gray219.png) 左手掌面。图上 Metacarpus 是掌骨，Phalanges 是指骨
+- [Gray220](https://commons.wikimedia.org/wiki/File:Gray220.png) 左手背面。拇指在桡侧。掌骨和指骨标了底（Base）、体（Body）、头（Head）；指骨分成第一、第二、第三列。维基共享资源把这条文件的英文简述写成了右手掌面，和原图不符，本课不沿用那句简述
 
 ## 页面上的三维查看器
 

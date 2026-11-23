@@ -62,7 +62,7 @@
     "bp": "BP23969",
     "fma": "FMA23953",
     "sha256": "6150a7f7ea4e7be42732790cc1faf840a5ad61b1fa21b71641af7bf169620b08",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 204
   },
   {
@@ -73,7 +73,7 @@
     "bp": "BP21916",
     "fma": "FMA23959",
     "sha256": "c995e7ec14456c6853f6814d8b5ec244c78c1cc5aa718d8e7993d4143b7b761a",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 154
   },
   {
@@ -95,7 +95,7 @@
     "bp": "BP23915",
     "fma": "FMA23955",
     "sha256": "cb807de4fad4b9f4ed954288e50c7ada19dc516a4332b7dc4771ea6148cbe47a",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 173
   },
   {
@@ -106,7 +106,7 @@
     "bp": "BP21666",
     "fma": "FMA23957",
     "sha256": "4d5e4ece6e1d4741cd8ce2a4c6c4ed9c9a4fa77eeb9b63e9e3ed04edafd98b3f",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 140
   },
   {
@@ -139,7 +139,7 @@
     "bp": "BP21923",
     "fma": "FMA23951",
     "sha256": "e774766e78b21b2c7445ac572a4d6dc76d2fb5f271d7b806b52eb2dabbadef45",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 179
   },
   {
@@ -172,7 +172,7 @@
     "bp": "BP21690",
     "fma": "FMA24460",
     "sha256": "695dd129f6a0d303121bdfcfba17540ba93ad238644f335705eb9337c27f9fe5",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 188
   },
   {
@@ -183,7 +183,7 @@
     "bp": "BP21896",
     "fma": "FMA24463",
     "sha256": "1dd93b78f4b9b1bdca308125f0fd43f59a96619f71b2482ab7df8c9769625ac3",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 140
   },
   {
@@ -205,7 +205,7 @@
     "bp": "BP21955",
     "fma": "FMA24461",
     "sha256": "2439441124099f09be9d9bf37bc711dcf3bcdb1cfae92ab26442165380019f42",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 143
   },
   {
@@ -216,7 +216,7 @@
     "bp": "BP22672",
     "fma": "FMA24462",
     "sha256": "0281340147e48d4c0f51cf42f79522c9283859b2b297245f1f506d5fbadcf5d1",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 114
   },
   {
@@ -249,7 +249,7 @@
     "bp": "BP23933",
     "fma": "FMA24459",
     "sha256": "f28cbf0d06a59a6a0ece1a2969f439adfaf8a0ca1bde544b2492861947205c68",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 179
   },
   {
@@ -513,7 +513,7 @@
     "bp": "BP23700",
     "fma": "FMA24473",
     "sha256": "46028538be80ac912a1f17b09e9bf587fc6a6b64e0f84e387d719faea859677d",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 272
   },
   {
@@ -579,7 +579,7 @@
     "bp": "BP23735",
     "fma": "FMA24465",
     "sha256": "0c3a399a2146f7c092fcece0889cee64d0b9a3513acb043ee6154af1cc5db8ad",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 304
   },
   {
@@ -645,7 +645,7 @@
     "bp": "BP23976",
     "fma": "FMA24471",
     "sha256": "de2445f70a254e9017620436bc5392833370f8d12ce284122c464e6e10ebbc80",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 320
   },
   {
@@ -964,7 +964,7 @@
     "bp": "BP23703",
     "fma": "FMA24467",
     "sha256": "3d6472d54d01ee9a13f5aa75f61e89e36f9892b5c85def18ee8cc0dcac7b40cd",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 401
   },
   {
@@ -1118,7 +1118,7 @@
     "bp": "BP23394",
     "fma": "FMA24469",
     "sha256": "8e33df780fcc679e12be30c5e1cda16946f5c4fec9953f73f830aabb94c785c1",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 409
   },
   {
@@ -1294,7 +1294,7 @@
     "bp": "BP23918",
     "fma": "FMA23938",
     "sha256": "b357e9cf35dd2a245aac1f9ab72242e8c26d98fe8bd0ebc7f8324e090cacf4f8",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 188
   },
   {
@@ -1305,7 +1305,7 @@
     "bp": "BP21913",
     "fma": "FMA23944",
     "sha256": "11c31dbb07c322927cd810a585ea4f15a598da009c08ce119c45bb67915e1419",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 192
   },
   {
@@ -1327,7 +1327,7 @@
     "bp": "BP22657",
     "fma": "FMA23940",
     "sha256": "83a06ba4129a59b064c1529834af4cf424e650d73a7d18a4da1866ae0e8c788b",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 229
   },
   {
@@ -1338,7 +1338,7 @@
     "bp": "BP23924",
     "fma": "FMA23942",
     "sha256": "181d9d9470a26e52926dbb9c9306af2bb08735e6b69196d6f980154c9b187a8b",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 216
   },
   {
@@ -1382,7 +1382,7 @@
     "bp": "BP20064",
     "fma": "FMA24455",
     "sha256": "f896e11f79bdad21aefa62461722c5656ea2d125296ee179a1731e8ec3469a60",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 190
   },
   {
@@ -1393,7 +1393,7 @@
     "bp": "BP21922",
     "fma": "FMA24458",
     "sha256": "e7c235041b4e0765a9cdff24ab0bb8fa720c476db1bdbec6cac48f17de73a3e5",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 169
   },
   {
@@ -1415,7 +1415,7 @@
     "bp": "BP21846",
     "fma": "FMA24456",
     "sha256": "95b535c86d0a21220740102987df5073e879c40650fb6971230f47c63e1dc5d5",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 227
   },
   {
@@ -1426,7 +1426,7 @@
     "bp": "BP20655",
     "fma": "FMA24457",
     "sha256": "43e83d74c320a2fe53ef5f86b2066eb3a5c222bc1d09e36b1b9ccd13611e2280",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 219
   },
   {
@@ -1536,7 +1536,7 @@
     "bp": "BP21883",
     "fma": "FMA71915",
     "sha256": "fc330636e3539a4606a5d98ae316684ff520eeea91d511673609bea1870cbd7b",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 222
   },
   {
@@ -1547,7 +1547,7 @@
     "bp": "BP23837",
     "fma": "FMA66791",
     "sha256": "14b9a5189cd062590bcee3dc0aa6834f0321c84499d18f841383661ae15d333e",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 164
   },
   {
@@ -1569,7 +1569,7 @@
     "bp": "BP21937",
     "fma": "FMA71908",
     "sha256": "0e66d87b9e5b9897b3422432d8c14a41eda5882a121543e9c36a83fc22df9fae",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 264
   },
   {
@@ -1580,7 +1580,7 @@
     "bp": "BP21939",
     "fma": "FMA71916",
     "sha256": "8edda25e40b623128820aaf8e250d9eacf47d9fc6baed19af9716704f428ff44",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 205
   },
   {
@@ -1613,7 +1613,7 @@
     "bp": "BP21907",
     "fma": "FMA65470",
     "sha256": "3b0bb551b4552f49e7282cf9caacdb3f4771fe7ded80fce49df562233b3d2262",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 209
   },
   {
@@ -1646,7 +1646,7 @@
     "bp": "BP21887",
     "fma": "FMA24451",
     "sha256": "efb790246f7f0a46413b614a96a01743b2f071a899563da2e647a56abf16cc88",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 226
   },
   {
@@ -1657,7 +1657,7 @@
     "bp": "BP21904",
     "fma": "FMA24454",
     "sha256": "4397b61d8e6ad97f6140ef1c6a0e8e768b25435f410c1a06201ccf8de3bbd3c3",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 187
   },
   {
@@ -1679,7 +1679,7 @@
     "bp": "BP21934",
     "fma": "FMA24452",
     "sha256": "fe50d15f221c18ba9951cb605c8f30745ff0448ebc4714af9c65dc1e3e6822ab",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 271
   },
   {
@@ -1690,7 +1690,7 @@
     "bp": "BP21866",
     "fma": "FMA24453",
     "sha256": "16644e4b745693ef0863444878d2219cbacfa038cf4e144696a3bbdc8328d256",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 209
   },
   {
@@ -1723,7 +1723,7 @@
     "bp": "BP23922",
     "fma": "FMA24450",
     "sha256": "67526dceb7db7ca8e1dd9e4054a57936598c381908aad09f598fa43010d5c13a",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 199
   },
   {
@@ -1844,7 +1844,7 @@
     "bp": "BP23729",
     "fma": "FMA24472",
     "sha256": "8d9caa02a03de69d6fdec2a2f6099c4e610b1115e1f5fb7c9f0350251dcc7519",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 287
   },
   {
@@ -1910,7 +1910,7 @@
     "bp": "BP23975",
     "fma": "FMA24464",
     "sha256": "f21f1fb9b2d9969d42e2c3c043e44270bda7d27e8df0c71355082cf62f75a09a",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 309
   },
   {
@@ -1976,7 +1976,7 @@
     "bp": "BP23371",
     "fma": "FMA24470",
     "sha256": "fd4bad617ec8364759a8d70388909d43b7be6041d4ee8f600c81e57cd01c6553",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 327
   },
   {
@@ -2295,7 +2295,7 @@
     "bp": "BP23440",
     "fma": "FMA24466",
     "sha256": "ae964145de7c285d03341e7fa91b99f70040a3f0636f999486300b53f015aafb",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 414
   },
   {
@@ -2449,7 +2449,7 @@
     "bp": "BP23643",
     "fma": "FMA24468",
     "sha256": "323ba5aeeba06780a5d74d0b6310f525d914eaae31c1fa2bed468ab7dcb08d5e",
-    "lesson": "",
+    "lesson": "lessons/11-metacarpals-phalanges.html",
     "vertices": 404
   },
   {
