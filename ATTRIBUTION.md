@@ -71,6 +71,14 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Scapula - animation](https://commons.wikimedia.org/wiki/File:Scapula_-_animation.gif)
 - [Left scapula - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_scapula_-_close-up_-_animation.gif)
 
+第 12 课前臂屈肌群同样使用这一来源。位置图是全身正面与侧面官方静帧，红色标出前臂前筋膜室屈肌群（FMA12255，anterior compartment of forearm，也叫 flexor compartment of forearm），覆在骨架（FMA5018）上，并加了中文标注：
+
+- `media/forearm-flexors-locator.png`：正面与侧面并排
+- `media/forearm-flexors-rotate-body.mp4`：全身旋转，已转成 H.264
+- `media/forearm-flexors-rotate-closeup.mp4`：左手前臂特写旋转，已转成 H.264
+
+这些静帧和转动没有单独的维基共享资源文件名可引，原渲染来自 Anatomography / BodyParts3D，许可仍是 CC BY-SA 2.1 JP。中文标题和说明为本课所加。
+
 位置图上的中文标注为本课所加。转动 GIF 已转成 H.264 MP4，便于在网页和微信中播放。
 
 ## 格雷氏解剖学（1918）
@@ -83,6 +91,8 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Gray201](https://commons.wikimedia.org/wiki/File:Gray201.png) 胸锁关节
 - [Gray202](https://commons.wikimedia.org/wiki/File:Gray202.png) 左肩胛骨肋面
 - [Gray203](https://commons.wikimedia.org/wiki/File:Gray203.png) 左肩胛骨背面
+- [Gray414](https://commons.wikimedia.org/wiki/File:Gray414.png) 前臂浅层屈肌。旋前圆肌、桡侧腕屈肌、掌长肌、尺侧腕屈肌、指浅屈肌
+- [Gray415](https://commons.wikimedia.org/wiki/File:Gray415.png) 前臂深层屈肌。指深屈肌、拇长屈肌、旋前方肌
 
 ## 页面上的三维查看器
 
