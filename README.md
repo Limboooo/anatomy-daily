@@ -13,10 +13,13 @@
 
 1. [锁骨](https://limboooo.github.io/anatomy-daily/lessons/01-clavicle.html)
 2. [肩胛骨](https://limboooo.github.io/anatomy-daily/lessons/02-scapula.html)
+12. [前臂屈肌群](https://limboooo.github.io/anatomy-daily/lessons/12-forearm-flexors.html)
+
+在这条从 `main` 拉出的分支上，第 3–11 课仍未开课：第 1–8 课补页在未合并的 PR #4，第 9 课肱肌在 PR #5，第 10 课腕骨在 PR #6，第 11 课掌骨与指骨在 PR #7。第 13 课肩袖还没发出，没有标成已上线。
 
 另外两页还在单独的分支上，合进 `main` 之前不会出现在上面的网站里：
 
-- [全身骨骼](skeleton.html)：站立的整副骨架，可旋转缩放。点锁骨或肩胛骨进入已有的课，点其他骨头停在本页。
+- [全身骨骼](skeleton.html)：站立的整副骨架，可旋转缩放。点锁骨或肩胛骨进入已有的课，点其他骨头停在本页。第 12 课是肌肉群，没有把桡骨、尺骨、肱骨、腕骨、掌骨或指骨的点击改成进入这一课。
 - [肩带联动](shoulder.html)：拖左锁骨、左肩胛骨或左肱骨，另外两块按胸锁、肩锁和肩关节跟着动。锁骨课和肩胛骨课里的单块骨头查看器仍保留。
 
 ## 配图原则
@@ -41,5 +44,6 @@ python3 -m http.server 8080
 - http://127.0.0.1:8080/shoulder.html
 - http://127.0.0.1:8080/lessons/01-clavicle.html
 - http://127.0.0.1:8080/lessons/02-scapula.html
+- http://127.0.0.1:8080/lessons/12-forearm-flexors.html
 
 在模型上拖动可以旋转，滚动或捏合可以缩放。肩带那一页要拖在骨头上，旁边的骨头才会跟着动；拖空白处只转动视角。
