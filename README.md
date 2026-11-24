@@ -15,7 +15,7 @@
 2. [肩胛骨](https://limboooo.github.io/anatomy-daily/lessons/02-scapula.html)
 12. [前臂屈肌群](https://limboooo.github.io/anatomy-daily/lessons/12-forearm-flexors.html)
 
-在这条从 `main` 拉出的分支上，第 3–11 课仍未开课：第 1–8 课补页在未合并的 PR #4，第 9 课肱肌在 PR #5，第 10 课腕骨在 PR #6，第 11 课掌骨与指骨在 PR #7。第 13 课肩袖还没发出，没有标成已上线。
+第 3–11 课仍未开课。第 13 课肩袖还没发出，没有标成已上线。
 
 另外两页还在单独的分支上，合进 `main` 之前不会出现在上面的网站里：
 
