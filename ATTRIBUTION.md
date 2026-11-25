@@ -71,6 +71,14 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Scapula - animation](https://commons.wikimedia.org/wiki/File:Scapula_-_animation.gif)
 - [Left scapula - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_scapula_-_close-up_-_animation.gif)
 
+第 13 课肩袖同样使用这一来源。位置图是全身正面与背面官方静帧，红色标出肩袖四块肌肉的可渲染叶节点（冈上肌 FMA32544、FMA32545，冈下肌 FMA32547、FMA32548，小圆肌 FMA32553、FMA32554，肩胛下肌 FMA13414、FMA13415），覆在骨架（FMA5018）上，不含大圆肌，并加了中文标注：
+
+- `media/rotator-cuff-locator.png`：正面与背面并排
+- `media/rotator-cuff-rotate-body.mp4`：全身旋转，已转成 H.264
+- `media/rotator-cuff-rotate-closeup.mp4`：左肩特写旋转，已转成 H.264
+
+这些静帧和转动没有单独的维基共享资源文件名可引，原渲染来自 Anatomography / BodyParts3D，许可仍是 CC BY-SA 2.1 JP。中文标题和说明为本课所加。
+
 位置图上的中文标注为本课所加。转动 GIF 已转成 H.264 MP4，便于在网页和微信中播放。
 
 ## 格雷氏解剖学（1918）
@@ -83,6 +91,8 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Gray201](https://commons.wikimedia.org/wiki/File:Gray201.png) 胸锁关节
 - [Gray202](https://commons.wikimedia.org/wiki/File:Gray202.png) 左肩胛骨肋面
 - [Gray203](https://commons.wikimedia.org/wiki/File:Gray203.png) 左肩胛骨背面
+- [Gray411](https://commons.wikimedia.org/wiki/File:Gray411.png) 掀开胸大肌后可见肩胛下肌。图上还有胸小肌、前锯肌、喙肱肌和肱二头肌，那些不是肩袖
+- [Gray412](https://commons.wikimedia.org/wiki/File:Gray412.png) 肩胛骨背面：冈上肌、冈下肌、小圆肌。图上还标了大圆肌（Teres major），它不是肩袖的一员
 
 ## 页面上的三维查看器
 
