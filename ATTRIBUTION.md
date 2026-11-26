@@ -71,6 +71,14 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Scapula - animation](https://commons.wikimedia.org/wiki/File:Scapula_-_animation.gif)
 - [Left scapula - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_scapula_-_close-up_-_animation.gif)
 
+第 14 课胸大肌同样使用这一来源。位置图是全身正面与左侧面官方静帧，红色标出胸大肌三个头的左右可渲染叶节点（锁骨头 FMA34690、FMA34691，胸肋头 FMA79979、FMA79980，腹头 FMA45874、FMA45875），覆在骨架（FMA5018）上。父级 FMA9627 不单独渲染，避免和三个头叠在一起。中文标注为本课所加：
+
+- `media/pectoralis-major-locator.png`：正面与左侧面并排
+- `media/pectoralis-major-rotate-body.mp4`：全身旋转，已转成 H.264
+- `media/pectoralis-major-rotate-closeup.mp4`：左胸特写旋转，已转成 H.264
+
+这些静帧和转动没有单独的维基共享资源文件名可引，原渲染来自 Anatomography / BodyParts3D，许可仍是 CC BY-SA 2.1 JP。中文标题和说明为本课所加。
+
 位置图上的中文标注为本课所加。转动 GIF 已转成 H.264 MP4，便于在网页和微信中播放。
 
 ## 格雷氏解剖学（1918）
@@ -83,6 +91,8 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Gray201](https://commons.wikimedia.org/wiki/File:Gray201.png) 胸锁关节
 - [Gray202](https://commons.wikimedia.org/wiki/File:Gray202.png) 左肩胛骨肋面
 - [Gray203](https://commons.wikimedia.org/wiki/File:Gray203.png) 左肩胛骨背面
+- [Gray410](https://commons.wikimedia.org/wiki/File:Gray410.png) 胸前和上臂浅层：胸大肌呈扇形，锁骨头与胸肋头
+- [Gray411](https://commons.wikimedia.org/wiki/File:Gray411.png) 掀开胸大肌后可见胸小肌、前锯肌和腋窝。胸大肌本身在这张图上已经被翻开，用来看它和深层邻居的关系
 
 ## 页面上的三维查看器
 
