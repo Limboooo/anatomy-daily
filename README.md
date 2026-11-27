@@ -15,12 +15,10 @@
 2. [肩胛骨](https://limboooo.github.io/anatomy-daily/lessons/02-scapula.html)
 15. [前锯肌](https://limboooo.github.io/anatomy-daily/lessons/15-serratus-anterior.html)
 
-第 3–14 课仍未开课。第 16 课胸骨还没发出，没有标成已上线。
+另外两页已经在网站上：
 
-另外两页还在单独的分支上，合进 `main` 之前不会出现在上面的网站里：
-
-- [全身骨骼](skeleton.html)：站立的整副骨架，可旋转缩放。点锁骨或肩胛骨进入已有的课，点其他骨头停在本页。
-- [肩带联动](shoulder.html)：拖左锁骨、左肩胛骨或左肱骨，另外两块按胸锁、肩锁和肩关节跟着动。锁骨课和肩胛骨课里的单块骨头查看器仍保留。
+- [全身骨骼](https://limboooo.github.io/anatomy-daily/skeleton.html)：站立的整副骨架，可旋转缩放。点锁骨或肩胛骨进入已有的课，点其他骨头停在本页。
+- [肩带联动](https://limboooo.github.io/anatomy-daily/shoulder.html)：拖左锁骨、左肩胛骨或左肱骨，另外两块按胸锁、肩锁和肩关节跟着动。锁骨课和肩胛骨课里的单块骨头查看器仍保留。
 
 ## 配图原则
 
