@@ -333,6 +333,9 @@ def lesson_for(name: str) -> str:
         return "lessons/01-clavicle.html"
     if re.search(r"\bscapula\b", low):
         return "lessons/02-scapula.html"
+    # Sternum and its three renderable leaves. Costal cartilages stay unlinked.
+    if low in {"sternum", "manubrium", "body of sternum", "xiphoid process"}:
+        return "lessons/16-sternum.html"
     return ""
 
 

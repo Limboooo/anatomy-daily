@@ -71,6 +71,14 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Scapula - animation](https://commons.wikimedia.org/wiki/File:Scapula_-_animation.gif)
 - [Left scapula - close-up - animation](https://commons.wikimedia.org/wiki/File:Left_scapula_-_close-up_-_animation.gif)
 
+第 16 课胸骨同样使用这一来源。位置图是全身正面与左侧面官方静帧，红色标出可渲染叶节点（胸骨柄 FMA7486、胸骨体 FMA7487、剑突 FMA7488），覆在骨架（FMA5018）上。父级 FMA7485 可单独渲染，终稿用这三块叶子以便颜色覆盖。中文标注为本课所加：
+
+- `media/sternum-locator.png`：正面与左侧面并排
+- `media/sternum-rotate-body.mp4`：全身旋转，已转成 H.264
+- `media/sternum-rotate-closeup.mp4`：胸骨特写旋转（特写中骨架 FMA5018 半透明，且不计入包围盒），已转成 H.264
+
+这些静帧和转动没有单独的维基共享资源文件名可引，原渲染来自 Anatomography / BodyParts3D，许可仍是 CC BY-SA 2.1 JP。中文标题和说明为本课所加。
+
 位置图上的中文标注为本课所加。转动 GIF 已转成 H.264 MP4，便于在网页和微信中播放。
 
 ## 格雷氏解剖学（1918）
@@ -83,6 +91,8 @@ Anatomography 查看器页面仍显示较早的 [CC BY-SA 2.1 JP](https://creati
 - [Gray201](https://commons.wikimedia.org/wiki/File:Gray201.png) 胸锁关节
 - [Gray202](https://commons.wikimedia.org/wiki/File:Gray202.png) 左肩胛骨肋面
 - [Gray203](https://commons.wikimedia.org/wiki/File:Gray203.png) 左肩胛骨背面
+- [Gray115](https://commons.wikimedia.org/wiki/File:Gray115.png) 胸骨前面与肋软骨，带肌肉附着范围
+- [Gray116](https://commons.wikimedia.org/wiki/File:Gray116.png) 胸骨后面与肋软骨切迹
 
 ## 页面上的三维查看器
 
